@@ -48,6 +48,7 @@ Set up the Grid (border-box version of box model)
 }
 .page {
 	margin-top: 30px;
+	margin-bottom: 30px;
 	padding-left:5px;
 	/*padding-bottom:20px;*/
 	line-height: 125%;
@@ -55,7 +56,7 @@ Set up the Grid (border-box version of box model)
 body {
   min-height:100vh;
   line-height: 1;
-  height: 100vh;
+  /*height: 100vh;*/
   font-family: Palatino, 'Palatino Linotype', 'Georgia', serif;
   /*background-color:#FFFEDE;*/
   /*background-color:#f8e0d6;*/
@@ -134,25 +135,29 @@ header{
 	border-bottom: 4px solid rgba(27, 159, 165, 0.72);
 }
 footer{
-  display: block;
-  height:50px;
-  line-height: 1;
-  height: 100vh;
-  font-family: Palatino, 'Palatino Linotype', 'Georgia', serif;
-  /*background-color:#FFFEDE;*/
-  /*background-color:#f8e0d6;*/
-  /*background-color:#f5f5f5;*/
-  background:rgba(34, 34, 46, 0.9);
-  /*background: -webkit-linear-gradient(#a1d3b0, #f6f1d3);
-  background: -moz-linear-gradient(#a1d3b0, #f6f1d3);
-  background: linear-gradient(to top,rgba(59, 59, 76, 0.9),rgba(34, 34, 46, 0.9));*/
-  color: #dad3d3;
-  text-align: right;
-  font-size: 20;
-  margin: 0 auto;
-	width: 95%;
+	display: block;
+	height:50px;
+	line-height: 1;
+	height: 100vh;
+	font-family: Palatino, 'Palatino Linotype', 'Georgia', serif;
+	/*background-color:#FFFEDE;*/
+	/*background-color:#f8e0d6;*/
+	/*background-color:#f5f5f5;*/
+	background:rgba(34, 34, 46, 0.9);
+	/*background: -webkit-linear-gradient(#a1d3b0, #f6f1d3);
+	background: -moz-linear-gradient(#a1d3b0, #f6f1d3);
+	background: linear-gradient(to top,rgba(59, 59, 76, 0.9),rgba(34, 34, 46, 0.9));*/
+	color: #dad3d3;
+	text-align: left;
+	font-size: 20;
+	margin: 0 auto;
+	width: 100%;
 	padding-left:5px;
-	padding-bottom:20px;
+	margin-top: 20px;
+	border-top: 4px solid rgba(27, 159, 165, 0.72);
+}
+.all{
+	height: 100vh;
 }
 .main{
 	margin: 0 auto;
@@ -266,15 +271,20 @@ footer{
 	padding-left: 10%;
 }
 .pubdate,
-.dates{
+.dates,
+.upcoming{
 	font-style: bold;
 	padding-right: 10px;
 	display: inline-block;
 	vertical-align: top;
 }
-.pubdate{
+.pubdate,
+.upcoming{
 	width: 5%;	
 	min-width: 35px;
+}
+.upcoming{
+	color:rgb(133, 193, 49)
 }
 .dates{
 	width: 10%;
@@ -311,6 +321,12 @@ footer{
 }
 .email{
 	color:rgb(133, 193, 49);
+}
+.footer{
+	width: 95%;
+	padding-left: 5px;
+	padding-top: 15px;
+	font-style: italic;
 }
 @media all and (max-width:1039px){
 	.flex-container-pic{
@@ -368,21 +384,57 @@ footer{
 		text-align: right;
 	}
 }
-@media all and (max-width:1000px){
-	#title{
+@media all and (max-width:650px){
+	/*#title{
 		font-size: 75px;
 	}
 	h2{
 		font-size: 55px;
+	}*/
+	.navigation{
+		flex-direction: column;
+		justify-content: center;
+		font-size: 20px;
+	}
+	/*p{
+		font-size: 30px;
+	}*/
+	.bigdiff{
+		padding-bottom: 16px;
+	}
+@media only screen and (max-width:620px) {
+	/* For mobile phones: */
+	h2{
+		font-size: 7vw;
+		text-align: center;
 	}
 	.navigation{
 		flex-direction: column;
 		justify-content: center;
-		font-size: 30px;
+		font-size: 5vw;
 	}
-	p{
-		font-size: 30px;
+	#title{
+		font-size: 13vw;
 	}
 	.bigdiff{
-		padding-bottom: 16px;
+		padding-bottom: 0px;
+		margin-bottom: 5vw;
+		margin-top: 3vw;
 	}
+	p{
+		font-size: 4vw;
+	}
+	.subtitle{
+		text-align:center;
+	}
+	.moreindented{
+		padding-left: 0%;
+	}
+	.pub{
+		width: 95%;
+		font-size: 4vw;
+	}
+	.grads{
+		font-size: 4vw;
+	}
+}
