@@ -156,6 +156,9 @@ footer{
 	margin-top: 20px;
 	border-top: 4px solid rgba(27, 159, 165, 0.72);
 }
+.super{
+	vertical-align: super;
+}
 .all{
 	height: 100vh;
 }
@@ -347,9 +350,9 @@ footer{
 	}
 	.mainpic {
 		/*height: 90%;*/
-		max-height: 300px;
+		max-height: 275px;
 		width: 100%;
-		max-width: 450px;
+		max-width: 410px;
 		display: block;
 		margin: 0 auto;
 	}
@@ -384,7 +387,7 @@ footer{
 		text-align: right;
 	}
 }
-@media all and (max-width:650px){
+@media all and (max-width:350px){
 	/*#title{
 		font-size: 75px;
 	}
