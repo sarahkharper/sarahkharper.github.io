@@ -283,14 +283,14 @@ footer{
 }
 .pubdate,
 .upcoming{
-	width: 5%;	
+	/*width: 5%;*/	
 	min-width: 35px;
 }
 .upcoming{
 	color:rgb(133, 193, 49)
 }
 .dates{
-	width: 10%;
+	/*width: 10%;*/
 	min-width: 100px;
 }
 .grads,
@@ -302,7 +302,7 @@ footer{
 	/*width: 90%;*/
 }
 .pub{
-	width: 95%;
+	width: 90%;
 }
 #title{
 	/*padding-bottom: 10px;*/
