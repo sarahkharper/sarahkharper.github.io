@@ -95,7 +95,7 @@ img {
 p{
 	color: #dad3d3;
 	/*background-color: #F8FBFE;*/
-	font-size: 16px;
+	font-size: 18px;
 	padding-bottom: 5px;
 }
 a{
@@ -114,15 +114,15 @@ h1{
 }
 h2{
 	/*line-height:2;*/
-	font-size: 35px;
+	font-size: 40px;
 }
 h3{
 	/*line-height:2;*/
-	font-size: 20px;
+	font-size: 25px;
 }
 h4{
 	/*line-height:2;*/
-	font-size:18px;
+	font-size:20px;
 }
 h1,
 h2,
@@ -238,7 +238,6 @@ footer{
 }
 .navigation a:hover{
 	color: #1b9fa5;
-	font-style: italic;
 }
 .pres-page{
 	text-decoration: underline;
