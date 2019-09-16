@@ -261,6 +261,7 @@ footer{
 .me{
 	/*color: #3dadb2;*/
 	font-weight: bold;
+	text-decoration: underline;
 }
 .teeny{
 	font-style:italic;
