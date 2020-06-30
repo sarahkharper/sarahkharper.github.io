@@ -213,6 +213,22 @@ footer{
 	flex-direction: row;
 	justify-content: flex-start;
 }
+.flex-container-graphs{
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+	-webkit-flex-flow: row nowrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+.graph-column{
+	flex: 1 1%;
+	padding-right: 1em;
+}
 .navigation{
 	list-style: none;
 	margin: 0;
@@ -364,6 +380,17 @@ footer{
 	}
 	.navigation{
 		justify-content: space-around;
+	}
+}
+@media all and (max-width: 930px){
+	.flex-container-graphs{
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.graph-column{
+		flex: 1 1;
+		padding-bottom:20px;
 	}
 }
 @media all and (min-width: 1040px){
