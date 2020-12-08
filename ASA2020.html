@@ -82,56 +82,33 @@
 		<section class="bigdiff"></section>
 		<section class="bigdiff">
 			<h3 class="subhead upcoming bigdiff">Additional Graphs and Analyses</h3>
-			<!--<div class="normdiff">
-					<h4 class = "supersubhead bigdiff">IQR Comparison for Predictor vs. Non-Predictor Speakers: CL Included</h4>
-					<div class = bigdiff>
-						<figure class = bigdiff>
-						<h3><figcaption class = "subhead"> /s/ (N=2 for non-predictor group)</figcaption></h3>
-						 <img src = "images/s_significance_plot_purple.png"
-						 alt = "Comparison of Predictor vs. Non-Predictor speakers for all dimensions measured for /s/" 
-						 width = 500
-						 height = 250>
-						</figure>
-					</div>
-					<div class = bigdiff>
-						<figure class = bigdiff>
-						<h3><figcaption class = "subhead"> /ʃ/ (N=2 for non-predictor group)</figcaption></h3>
-						 <img src = "images/sh_significance_plot_purple.png"
-						 alt = "Comparison of Predictor vs. Non-Predictor speakers for all dimensions measured for /sh/" 
-						 width = 500
-						 height = 250>
-						</figure>
-					</div>
-					<div class = "bigdiff">
-						<figure class = "bigdiff">
-						<h3><figcaption class = "subhead"> /l/ (N=1 for non-predictor group)</figcaption></h3>
-						 <img src = "images/l_significance_plot_purple.png"
-						 alt = "Comparison of Predictor vs. Non-Predictor speakers for all dimensions measured for /l/" 
-						 width = 500
-						 height = 250>
-						</figure>
-					</div>
-					<div class = "bigdiff">
-						<figure class = "bigdiff">
-						<h3><figcaption class = "subhead"> /ɹ/ (N=1 for non-predictor group)</figcaption></h3>
-						 <img src = "images/r_significance_plot_purple.png"
-						 alt = "Comparison of Predictor vs. Non-Predictor speakers for all dimensions measured for /ɹ/" 
-						 width = 500
-						 height = 250>
-						</figure>
-					</div>-->
-					<!--<h4 class="supersubhead bigdiff">Regression Coefficients For All Dimensions By Segment </h4>
+					<h4 class="supersubhead bigdiff">Regression Coefficients For All Dimensions By Segment </h4>
 						<div>
-							<p class = "bluetext"> All correlation analyzes conducted using Spearman's rank-order correlation. </p>
+							<p class = "bluetext"> All correlation analyzes conducted using Spearman's rank-order correlation. Significant correlations are in green.</p>
+							<p class = "bigdiff"> </p>
+						</div>
+						<div>
+							<p class = "bigdiff"> <b> Articulatory Dimensions </b> </p>
 						</div>
 						<div class = "flex-container-graphs">
 							<figure class = "bigdiff">
-								<!--<img src = "images/s_a12_corr_plot.png"
-			 					alt = "Scatterplot showing relationship between constriction orientation and regression coefficient values for s"
-			 					wdth = 100%/>
+								<img src = "images/table_correlation_coefficients.png"
+			 					alt = "Table with correlation coefficients for IQR by Logistic Regression coefficient comparisons"
+			 					width = 50%/>
 				 			</figure>
-				 		</div>-->
+				 		</div>
+				 		<div>
+							<p class = "bigdiff"> <b> Acoustic Dimensions </b> </p>
+						</div>
+						<div class = "flex-container-graphs">
+							<figure class = "bigdiff">
+								<img src = "images/table_acoustic_fric_regression_coefficients.png"
+			 					alt = "Table with correlation coefficients for IQR by Logistic Regression coefficient comparisons for acoustic dimensions"
+			 					width = 50%/>
+				 			</figure>
+				 		</div>
 					<h4 class="supersubhead bigdiff">Correlation Between Regression Coefficients and IQR Values </h4>
+					<p/> <b> Articulatory Dimensions </b> </p>
 					<h4 class = bluetext> <b> CD </b></h4>
 						<div class = "flex-container-graphs">
 							<figure class = "bigdiff graph-column">
@@ -153,6 +130,33 @@
 			 					<div class = "bigdiff">
 			 						<figure class = "bigdiff">
 										<img src = "images/r_palcd_corr_plot_black_labeled.png"
+						 				alt = "Scatterplot showing relationship between constriction orientation and regression coefficient values for r"
+						 				width = 100%>
+					 				</figure>
+			 					</div>	
+		 					</div>
+	 					</div>
+	 					<h4 class = bluetext> <b> CO </b></h4>
+						<div class = "flex-container-graphs">
+							<figure class = "bigdiff graph-column">
+								<img src = "images/s_a12_corr_plot_black_labeled.png"
+				 				alt = "Scatterplot showing relationship between constriction degree (CD) and regression coefficient values for /s/"
+				 				width = 100%/>
+			 				</figure>
+	 						<figure class = "bigdiff graph-column">
+								<img src = "images/sh_a12_corr_plot_black_labeled.png"
+				 				alt = "Scatterplot showing relationship between constriction orientation and regression coefficient values for sh"/
+				 				width = 100%>
+			 				</figure>
+	 						<figure class = "bigdiff graph-column">
+								<img src = "images/l_a12_corr_plot_black_labeled.png"
+				 				alt = "Scatterplot showing relationship between constriction orientation and regression coefficient values for l"
+				 				width = 100%>
+			 				</figure>
+		 					<div class = "graph-column">
+			 					<div class = "bigdiff">
+			 						<figure class = "bigdiff">
+										<img src = "images/r_a12_corr_plot_black_labeled.png"
 						 				alt = "Scatterplot showing relationship between constriction orientation and regression coefficient values for r"
 						 				width = 100%>
 					 				</figure>
@@ -213,6 +217,88 @@
 			 					</div>	
 		 					</div>
 	 					</div>
+	 				<!--<p/> <b> Acoustic Dimensions </b> </p>
+ 					<h4 class = bluetext> <b> M2 </b></h4>
+						<div class = "flex-container-graphs">
+							<figure class = "bigdiff graph-column">
+								<img src = "images/s_m2_corr_plot_black_labeled.png"
+				 				alt = "Scatterplot showing relationship between constriction degree (CD) and regression coefficient values for /s/"
+				 				width = 100%/>
+			 				</figure>
+	 						<figure class = "bigdiff graph-column">
+								<img src = "images/sh_a12_corr_plot_black_labeled.png"
+				 				alt = "Scatterplot showing relationship between constriction orientation and regression coefficient values for sh"/
+				 				width = 100%>
+			 				</figure>
+	 						<figure class = "bigdiff graph-column">
+								<img src = "images/l_a12_corr_plot_black_labeled.png"
+				 				alt = "Scatterplot showing relationship between constriction orientation and regression coefficient values for l"
+				 				width = 100%>
+			 				</figure>
+		 					<div class = "graph-column">
+			 					<div class = "bigdiff">
+			 						<figure class = "bigdiff">
+										<img src = "images/r_a12_corr_plot_black_labeled.png"
+						 				alt = "Scatterplot showing relationship between constriction orientation and regression coefficient values for r"
+						 				width = 100%>
+					 				</figure>
+			 					</div>	
+		 					</div>
+	 					</div>
+					<h4 class = bluetext> <b> LA </b> </h4>
+						<div class = "flex-container-graphs">
+							<figure class = "bigdiff graph-column">
+								<img src = "images/s_la_corr_plot_black_labeled.png"
+				 				alt = "Scatterplot showing relationship between labial aperture and regression coefficient values for s"
+				 				width = 100%/>
+			 				</figure>
+	 						<figure class = "bigdiff graph-column">
+								<img src = "images/sh_la_corr_plot_black_labeled.png"
+				 				alt = "Scatterplot showing relationship between labial aperture and regression coefficient values for sh"/
+				 				width = 100%>
+			 				</figure>
+	 						<figure class = "bigdiff graph-column">
+								<img src = "images/l_la_corr_plot_black_labeled.png"
+				 				alt = "Scatterplot showing relationship between labial aperture and regression coefficient values for l"
+				 				width = 100%>
+			 				</figure>
+		 					<div class = "graph-column">
+			 					<div class = "bigdiff">
+			 						<figure class = "bigdiff">
+										<img src = "images/r_la_corr_plot_black_labeled.png"
+						 				alt = "Scatterplot showing relationship between labial aperture and regression coefficient values for r"
+						 				width = 100%>
+					 				</figure>
+			 					</div>	
+		 					</div>
+	 					</div>
+					<h4 class = bluetext> <b> LP </b> </h4>
+						<div class = "flex-container-graphs">
+							<figure class = "bigdiff graph-column">
+								<img src = "images/s_lp_corr_plot_black_labeled.png"
+				 				alt = "Scatterplot showing relationship between labial protrusion and regression coefficient values for s"
+				 				width = 100%/>
+			 				</figure>
+	 						<figure class = "bigdiff graph-column">
+								<img src = "images/sh_lp_corr_plot_black.png"
+				 				alt = "Scatterplot showing relationship between labial protrusion and regression coefficient values for sh"/
+				 				width = 100%>
+			 				</figure>
+	 						<figure class = "bigdiff graph-column">
+								<img src = "images/l_lp_corr_plot_black_labeled.png"
+				 				alt = "Scatterplot showing relationship between labial protrusion and regression coefficient values for l"
+				 				width = 100%>
+			 				</figure>
+		 					<div class = "graph-column">
+			 					<div class = "bigdiff">
+			 						<figure class = "bigdiff">
+										<img src = "images/r_lp_corr_plot_black_labeled.png"
+						 				alt = "Scatterplot showing relationship between labial protrusion and regression coefficient values for r"
+						 				width = 100%>
+					 				</figure>
+			 					</div>	
+		 					</div>
+	 					</div>-->
 	 				<h4 class="supersubhead bigdiff">The Relationship of Variability to Contrast When Controlling For Distance Between Category Means</h4>
 	 				<div>
 	 					<p class = "bigdiff"> Both the <span class = bluetext> amount of variability </span> in the distribution of each labeled category and the <span class = bluetext> distance between category means</span>/the distance between the distributions is likely to affect the fitting of a logistic regression model to data. There was some concern that the relationship between variability and contrast shown in this analysis could be confounded if there was a relationship between variability and the distance between category means. </p>
