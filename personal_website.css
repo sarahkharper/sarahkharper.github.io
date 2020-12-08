@@ -267,6 +267,10 @@ footer{
 	/*color: #018d98;*/
 	font-weight: bold;
 	margin-bottom: 10px;
+	line-height: 2em;
+}
+.bluetext{
+	color: #1b9fa5;
 }
 .supersubhead{
 	color: #db2377;
