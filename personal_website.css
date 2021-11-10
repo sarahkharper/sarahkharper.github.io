@@ -88,7 +88,7 @@ table {
 
 img {
 	/*width: 400px;*/
-	/*max-width:400px;*/
+	max-width:410px;
 	/*min-width:300px;*/
 	/*margin: 0 auto;*/
 }
@@ -373,9 +373,9 @@ footer{
 	}
 	.mainpic {
 		/*height: 90%;*/
-		max-height: 275px;
+		max-height: 410px;
 		width: 100%;
-		max-width: 410px;
+		max-width: 300px;
 		display: block;
 		margin: 0 auto;
 	}
@@ -399,8 +399,8 @@ footer{
 }
 @media all and (min-width: 1040px){
 	.mainpic {
-		max-height: 300px;
-		max-width: 450px;
+		max-height: 500px;
+		max-width: 400px;
 		width: 100%;
 	}
 	.sidetext {
